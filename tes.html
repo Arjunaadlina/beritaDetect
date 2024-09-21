@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Berita</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <img src="./assets/image/images.jpg" alt="image">
+        <div class="container-text">
+            
+            <h2>Prediksi kategori berita</h2>
+            <p>Ketahui kategori berita yang anda kepo biar semakin tau nih berita apaan<br> yang sedang ramai di Indonesia.</p>
+            <input type="text" id="newsTitle" placeholder="Judul berita" oninput="validateInput(this)">
+            <button onclick="predictCategory()">Prediksi</button>
+            <div class="loading" id="loading"></div>
+            <span id="result"></span>
+            
+        </div>
+    </div>
+    <div class="footer">
+        @copyright Valentinopp & Arjunaadlina
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
